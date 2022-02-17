@@ -1,6 +1,11 @@
 body {
     background-color: bisque;
-    display: block;
+}
+
+.background-ball {
+    position: fixed;
+    top: 200px;
+    height: calc(100% - 200px);
 }
 
 .ball {
@@ -14,7 +19,7 @@ body {
 }
 
 @keyframes bounce {
-    0% { bottom: 75%; }
+    0% { bottom: 100%; }
     50% { bottom: 0%; }
-    100% { bottom: 75%; }
+    100% { bottom: 100%; }
 }
